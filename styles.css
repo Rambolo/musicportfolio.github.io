@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #121212;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: left;
+  padding: 20px 40px;
+}
+
+.music-cards {
+  display: block;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 20px;
+}
+
+.music-card {
+  background-color: #a8a8a8;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
+  margin-inline: auto;
+  width: 90%;
+}
+
+.music-info {
+  padding: 20px;
+}
+
+.music-player {
+  background-color: #888888;
+  padding: 10px;
+}
+
+.description {
+  font-style: italic;
+}
